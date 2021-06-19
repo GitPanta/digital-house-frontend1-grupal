@@ -1,0 +1,68 @@
+.header1 {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    position: relative;
+}
+
+.ofertas {
+    margin-left: 90px;
+}
+
+.esp-arg {
+    position: absolute;
+    right: 52px;
+}
+
+#front {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    left: 40px;
+    top: 22px;
+}
+
+#cat-dog {
+    position: absolute;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    left: 109px;
+    top: 22px;
+}
+
+.header2 {
+    height: 61px;
+    background-color: #F0A83E;
+    position: relative;
+}
+
+.subheader {
+    position: absolute;
+    right: 40px;
+    margin-top: 22px;
+}
+
+.banner {
+    background-image: url('../img/foto.png');
+    height: 62px;
+    width: 1024px;
+    background-size: cover;
+    background-position: center center;
+}
