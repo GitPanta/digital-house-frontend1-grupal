@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
 </head>
 <body>
     <header>
-        <div style="background-color: #222222; color: #F3F3F3;">
-            <span>Grandes ofertas en comedores</span>
-            <span>Español<img src="img/down.png" alt=""> $ARG<img src="img/down.png" alt=""></span>
+        <div class="header1">
+            <span class="ofertas">Grandes ofertas en comedores</span>
+            <span class="esp-arg">Español<i class="fas fa-angle-down"></i> $ARG<i class="fas fa-angle-down"></i></span>
         </div>
-        <nav style="background-color: #F0A83E;">
-            <img src="img/Logo.png" alt="Logo">
-            <span>
+        <nav class="header2">
+            <span id="front">
+                <img src="img/Cat.png" alt="">
+                Front
+            </span>
+            <span id="cat-dog">
+                Cat&Dog
+                <img src="img/Cat.png" alt="">
+            </span>
+            <span class="subheader">
                 <img src="img/pawprint 1.png" alt="pawprint">Categorías 
                 <img src="img/pawprint 1.png" alt="pawprint"> Pets 
                 <img src="img/pawprint 1.png" alt="pawprint"> Nosotros 
@@ -24,40 +32,39 @@
         </nav>
     </header>
     <main>
+        <section class="banner">
+            <!-- <img src="img/foto.png" alt=""> -->
+            <div id="b1">¡Es un placer tenerte aquí!</div>
+            <div id="b2">¡Comederos en descuento!</div>
+            <div id="b3">COMEDEROS</div>
+        </section>  
         <section>
-            <img src="img/foto.png" alt="">
-            <br>
-            <span style="background-color: #fff;">¡Es un placer terte aquí!</span>
-            <br>
-            <span>¡Comederos en descuento!</span>
-            <br>
-            <span style="background-color: #F0A83E;">COMEDEROS</span>
-        </section>
-        <section>
-            <img src="img/pawprint 2.png" alt="">
+            <div class="big-paw">
+                <img src="img/pawprint 2.png" alt="">
+            </div>
+            
             <h1>Productos Destacados</h1>
-            <span>Comederos - Accesorios - Comida</span>
-            <article>
+
+            <div class="subh">Comederos - Accesorios - Comida</div>
+
+            <div class="productos">
                 <img src="img/churrasquito.png" alt="">
-                <br>
-                <span>Juguete Churrasquito</span>
-                <br>
-                <span style="color: #F0A83E;">$150</span>
-            </article>
-            <article>
                 <img src="img/comedero.png" alt="">
-                <br>
-                <span>Comedero para perro</span>
-                <br>
-                <span style="color: #F0A83E;">$250</span>
-            </article>
-            <article>
                 <img src="img/Huesito.png" alt="">
-                <br>
-                <span>Juguete Huesito</span>
-                <br>
-                <span style="color: #F0A83E;">$650</span>
-            </article>
+            </div>
+
+            <div class="subprod">
+                <span class=>
+                    <span class="descripcion">Juguete Churrasquito</span>
+                    <span class="descripcion">Comedero para perro</span>
+                    <span class="descripcion">Juguete Huesito</span>
+                    <br>
+                    <span class="precio">$150</span>
+                    <span class="precio">$250</span>
+                    <span class="precio">$650</span>
+                </span>
+            </div>
+
         </section>
         <section>
             <h2 id="contacto">Contáctanos</h2>
@@ -66,8 +73,8 @@
                     <input type="text" placeholder="Nombre y Apellido" class="ind"><br>
                     <input type="text" placeholder="Ingresa tu correo electronico" class="ind"><br>
                     <input type="text" placeholder="Teléfono" class="ind"><br>
-                    <input type="button" value="Resetear" id="b1">
-                    <input type="button" value="Enviar" id="b2">
+                    <input type="button" value="Resetear" id="c1">
+                    <input type="button" value="Enviar" id="c2">
                 </form>
             </div>
         </section>
